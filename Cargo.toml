@@ -1,0 +1,8 @@
+[package]
+name = "deadpool_redis_bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+deadpool-redis = "0.15.1"
+tokio = { version = "1.28" , features = ["full"] }
